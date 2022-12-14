@@ -16,7 +16,7 @@
 - children: No. of children in single booking record.
 - babies: No. of babies in single booking record. 
 - meal: Type of meal chosen 
-- country: Country of origin of customers (as mentioned by them)
+- country: Country of origin of customers
 - market_segment: What segment via booking was made and for what purpose.
 - distribution_channel: Via which medium booking was made.
 - is_repeated_guest: Whether the customer has made any booking before(0 for No and 1 for 
@@ -36,3 +36,25 @@
 - total_of_special_requests: total no. of special request.
 - reservation_status: Whether a customer has checked out or canceled,or not showed 
 - reservation_status_date: Date of making reservation status.
+
+Total 119390 rows and 32 columns in dataset
+## Data Cleaning and Feature Engineering
+### [1] Removing Duplicate Values
+- Rows that were duplicates were removed.
+### [2] Handling Null / Missing Values
+- Children, country, and agent are discrete numerical variables, so replaced null values with mode of it.
+- Variable company had null values greater than 50%, so removed it.
+### [3] Removing Outliers
+- Interquartile Range in the skew symmetric curve used to remove outliers found in the lead_time and adr variables.
+### [4] Converting Columns to Appropriate Data Types
+- Datatypes of variables "children," "agent," "reservation_status_date," "total_people," and "total_children" were transformed from float64 datatypes to int64.
+- Datatype of the variable "reservation_status_date" was transformed from object datatype to datetime64.
+### [5] Created New Columns
+- The variable "total_stays" is created by adding the variables "stays_in_weekend_nights" and "stays_in_weeknights."
+- The variable "total_people" is created by adding the variables "adults," "children," and "babies."
+- The variable "reserved_room_assigned" is made up of the variables "reserved_room_type" and "assigned_room_type."
+- From variables "children" and "babies," a new "total_children" variable is created by adding both of them.
+- The variable "total_people" used to create "guest_category."
+- The variable "lead_time_category" created from the variable "lead_time."
+## Exploratory Data Analysis
+performed EDA and tried answering the following questions:
