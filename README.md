@@ -105,7 +105,7 @@ Total 119390 rows and 32 columns in dataset
      - 70% chance that bookings will not be cancelled by customers.
      - Reserved rooms were not assigned to 15% of customers. Ensure that customers receive the rooms they have reserved.
      - Reservations were often made for two people. 10% or so of guests brought their families. Few bring their families with them. Offer family-friendly discounts to encourage reservations for family and business events.
-##### <ins>Bivariate Analysis</ins>
+##### <ins> Bivariate Analysis </ins>
      performed bivariate analysis and reached the following conclusions:
      - The inability to assign a reserved room to a customer is not grounds for cancellation
      - Less lead time means fewer cancellations. Booking cancellations are not caused by a longer Lead time.
