@@ -1,5 +1,7 @@
 # Hotel Booking Analysis - EDA
 
+## <ins> Dashboard Link </ins> - [Link](https://public.tableau.com/app/profile/ajit.mane/viz/HBADashboard-AjitMane/HBADashboard)
+
 ## <ins> Objective </ins>
 #### Our primary goal is to conduct EDA on the provided dataset and derive valuable conclusions about broad hotel booking trends and how various factors interact to affect hotel bookings.
 ## <ins> Dataset </ins>
