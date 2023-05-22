@@ -1,4 +1,4 @@
-# Hotel Booking Analysis - EDA
+# Hotel Booking Analysis - EDA Using Python and Dashboard Using Tableau
 
 ## <ins> Dashboard Link </ins> - [Link](https://public.tableau.com/app/profile/ajit.mane/viz/HBADashboard-AjitMane/HBADashboard)
 
