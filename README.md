@@ -2,6 +2,13 @@
 
 ## <ins> Dashboard Link </ins> - [Link](https://public.tableau.com/app/profile/ajit.mane/viz/HBADashboard-AjitMane/HBADashboard)
 
+### <ins> Dashboard Usage <ins>
+- To view the dashboard, follow these steps:
+  - Clone this repository to your local machine or download the Power BI dashboard file or click the above dashboard link.
+  - Open the dashboard file using Tableau Desktop or Tableau Online.
+  - Connect the dashboard using the provided dataset given in repository.
+  - Explore the different pages and visuals within the dashboard to gain insights.
+
 ## <ins> Objective </ins>
 #### Our primary goal is to conduct EDA on the provided dataset and derive valuable conclusions about broad hotel booking trends and how various factors interact to affect hotel bookings.
 ## <ins> Dataset </ins>
