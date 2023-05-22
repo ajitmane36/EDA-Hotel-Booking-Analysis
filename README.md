@@ -4,7 +4,7 @@
 
 ### <ins> Dashboard Usage <ins>
 - To view the dashboard, follow these steps:
-  - Clone this repository to your local machine or download the Power BI dashboard file or click the above dashboard link.
+  - Clone this repository to your local machine or download the Tableau dashboard file or click the above dashboard link.
   - Open the dashboard file using Tableau Desktop or Tableau Online.
   - Connect the dashboard using the provided dataset given in repository.
   - Explore the different pages and visuals within the dashboard to gain insights.
