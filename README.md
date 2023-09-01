@@ -2,6 +2,9 @@
 
 ## <ins> Dashboard Link </ins> - [Link](https://public.tableau.com/app/profile/ajit.mane/viz/HBADashboard-AjitMane/HBADashboard)
 
+## <ins> Dashboard Preview </ins>
+![Dashboard](https://github.com/ajitmane36/EDA-Hotel-Booking-Analysis/blob/dd307d650d7671fb4dcf7f6425232af4495b6dc8/Hotel%20Booking%20Analysis%20Dashboard.png)
+
 ### <ins> Dashboard Usage <ins>
 - To view the dashboard, follow these steps:
   - Clone this repository to your local machine or download the Tableau dashboard file or click the above dashboard link.
